@@ -84,7 +84,7 @@ section {
 
 .hero-cta {
     width: 35%;
-    text-align: right
+    text-align: right;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
@@ -219,9 +219,7 @@ section {
     justify-content: space-between;
 }
 
-.trainers {
-    
-}
+.trainers {}
 
 .trainer {
     width: 900px; 
