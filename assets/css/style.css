@@ -342,6 +342,8 @@ section {
 
 .service-grid-container {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
 }
 
 .service-grid-item {
@@ -351,6 +353,11 @@ section {
     border: solid;
     color: black;
 }
+
+
+
+/* Queries only beyond this point. STAI ATTENTO! */
+
 
 @media screen and (max-width: 980px) {
     header {
